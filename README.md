@@ -1,2 +1,3 @@
 # WA2-for-CEP
-my wa2 for cep cuz yes
+My project for WA2 of CEP
+The science lens is objects in space, in particular, particles interacting with black holes and bigger gravitational bodies.
