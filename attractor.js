@@ -1,12 +1,12 @@
 class Attractor {
-  constructor(x,y,m) {
+  constructor(x, y, m) {
     this.pos = createVector(x,y);
     this.mass = m;
     this.r = sqrt(this.mass);
   }
   
   attract(mover) {
-    let force = p5.Vector.sub(this.pos, mover.pos);
+    let force = p5.Vector.sub(this.pos, mover.pos); //getting direction of force
     let distanceSq = constrain(force.magSq(), 100, 1000);
     let strength = G * (this.mass * mover.mass) / distanceSq;
     force.setMag(strength);
