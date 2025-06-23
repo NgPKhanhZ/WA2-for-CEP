@@ -35,5 +35,6 @@ class Mover {
     strokeWeight(0);
     fill("gray");
     ellipse(this.pos.x, this.pos.y, this.r * 2);
+    textSize(20);
   }
 }
